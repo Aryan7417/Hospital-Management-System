@@ -93,7 +93,7 @@ public class login extends JFrame implements ActionListener {
                 ResultSet resultSet = c.statement.executeQuery(q);
 
                 if (resultSet.next()) {
-                    new test();
+                    new Recaption();
                     setVisible(false);
 
                 } else {
