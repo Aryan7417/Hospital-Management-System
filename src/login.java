@@ -5,6 +5,7 @@
 
             for(int i = 1 ;i<=50;i++){
                 System.out.println(a +" * "+ i + " = "+(a *i));
+                System.out.println("Nothing");
             }
 
         }
