@@ -87,13 +87,14 @@ public class Recaption extends JFrame {
         btn4.setBounds(270, 15, 200, 30);
         btn4.setBackground(new Color(246, 215, 118));
         panel1.add(btn4);
-        // bt1.addActionListener(new ActionListener() {
-        // @Override
-        // public void actionPerformed(ActionListener e){
+        btn4.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent  e){
+            new Employee_info();
 
-        // }
+        }
 
-        // });
+        });
 
         JButton btn5 = new JButton("Patient Info");
         btn5.setBounds(270, 58, 200, 30);
