@@ -6,5 +6,6 @@
         "mysql-connector-java-8.0.28.jar",
         "lib/mysql-connector-java-8.0.28.jar",
         "lib/ResultSet2xml.jar"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }

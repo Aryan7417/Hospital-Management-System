@@ -100,25 +100,29 @@ public class Recaption extends JFrame {
         btn5.setBounds(270, 58, 200, 30);
         btn5.setBackground(new Color(246, 215, 118));
         panel1.add(btn5);
-        // bt1.addActionListener(new ActionListener() {
-        // @Override
-        // public void actionPerformed(ActionListener e){
 
-        // }
+         btn5.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent  e){
+            new All_patient_info();
 
-        // });
+        }
+
+        });
+        
 
         JButton btn6 = new JButton("Patient Discharge");
         btn6.setBounds(270, 100, 200, 30);
         btn6.setBackground(new Color(246, 215, 118));
         panel1.add(btn6);
-        // bt1.addActionListener(new ActionListener() {
-        // @Override
-        // public void actionPerformed(ActionListener e){
+        btn6.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent  e){
+            new Discharge();
 
-        // }
+        }
 
-        // });
+        });
 
         JButton btn7 = new JButton("Update Patient Details");
         btn7.setBounds(510, 15, 200, 30);
@@ -160,18 +164,20 @@ public class Recaption extends JFrame {
         btn10.setBounds(750, 15, 200, 30);
         btn10.setBackground(new Color(246, 215, 118));
         panel1.add(btn10);
-        // bt1.addActionListener(new ActionListener() {
-        // @Override
-        // public void actionPerformed(ActionListener e){
-
-        // }
-
-        // });
+      
 
         setSize(1950, 1090);
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
         setVisible(true);
+         btn6.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent  e){
+            setVisible(false);
+
+        }
+
+        });
     }
 
     public static void main(String[] args) {
