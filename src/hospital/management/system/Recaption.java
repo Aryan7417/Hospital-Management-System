@@ -60,13 +60,15 @@ public class Recaption extends JFrame {
         btn2.setBounds(30, 58, 200, 30);
         btn2.setBackground(new Color(246, 215, 118));
         panel1.add(btn2);
-        // bt2.addActionListener(new ActionListener() {
-        // @Override
-        // public void actionPerformed(ActionListener e){
+        
+        btn2.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent  e){
+            new Room();
 
-        // }
+        }
 
-        // });
+        });
 
         JButton btn3 = new JButton("Departnmenet");
         btn3.setBounds(30, 100, 200, 30);
